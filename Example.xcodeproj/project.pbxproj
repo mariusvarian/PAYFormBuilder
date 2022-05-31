@@ -29,7 +29,6 @@
 		37F82FA0192518C600087781 /* KIFUITestActor+PAYComfort.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F82F9F192518C600087781 /* KIFUITestActor+PAYComfort.m */; };
 		C3D8D8181D10341300F2D073 /* KIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F48E071D10327600A8CE5E /* KIF.framework */; };
 		C3D8D8191D10342C00F2D073 /* KIF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3F48E071D10327600A8CE5E /* KIF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C3D8D81D1D1034DD00F2D073 /* SZTextView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3F48E081D10327600A8CE5E /* SZTextView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,17 +63,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				C3D8D8191D10342C00F2D073 /* KIF.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3F48E061D10326A00A8CE5E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C3D8D81D1D1034DD00F2D073 /* SZTextView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +250,6 @@
 				3796520418F426A00022151B /* Sources */,
 				3796520518F426A00022151B /* Frameworks */,
 				3796520618F426A00022151B /* Resources */,
-				C3F48E061D10326A00A8CE5E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,6 +291,9 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Paij;
 				TargetAttributes = {
+					3796520718F426A00022151B = {
+						DevelopmentTeam = BEBDXV5R79;
+					};
 					3796522218F426A00022151B = {
 						TestTargetID = 3796520718F426A00022151B;
 					};
@@ -314,6 +304,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 379651FF18F426A00022151B;
@@ -523,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BEBDXV5R79;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -534,7 +526,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "Example/Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
@@ -552,6 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BEBDXV5R79;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -563,7 +556,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "Example/Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
