@@ -1,1 +1,2 @@
-github "glaszig/SZTextView" ~> 1.2.0
+#github "glaszig/SZTextView" ~> 1.2.0
+git "file:///Users/mariusvarian/Documents/work/Cobi/libraries_repos/SZTextView" "feature/Xcode-13-updates"
