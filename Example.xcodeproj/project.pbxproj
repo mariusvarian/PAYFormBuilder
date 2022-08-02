@@ -463,7 +463,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -507,7 +506,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -595,7 +593,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.paij.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-				VALID_ARCHS = arm64;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -620,7 +617,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.paij.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-				VALID_ARCHS = arm64;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
