@@ -96,7 +96,7 @@
 		C3F48DFB1D100CE300A8CE5E /* PAYDefaultTableTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = C395035F1AD7B6BD0067CF7C /* PAYDefaultTableTheme.m */; };
 		C3F48DFC1D100CE300A8CE5E /* PAYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C39503651AD7B6BD0067CF7C /* PAYStyle.m */; };
 		C3F48DFD1D100CE300A8CE5E /* PAYValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3709CE611920DFAB0077BAFF /* PAYValidation.m */; };
-		FA12D05C289AAD960078A32B /* SZTextView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA12D05B289AAD960078A32B /* SZTextView.xcframework */; };
+		FA12D062289ABF630078A32B /* SZTextView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA12D060289ABEA20078A32B /* SZTextView.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,7 +203,7 @@
 		C39503641AD7B6BD0067CF7C /* PAYStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYStyle.h; sourceTree = "<group>"; };
 		C39503651AD7B6BD0067CF7C /* PAYStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAYStyle.m; sourceTree = "<group>"; };
 		C39503661AD7B6BD0067CF7C /* PAYTableTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYTableTheme.h; sourceTree = "<group>"; };
-		FA12D05B289AAD960078A32B /* SZTextView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SZTextView.xcframework; path = ../../../iOS/Carthage/Build/SZTextView.xcframework; sourceTree = "<group>"; };
+		FA12D060289ABEA20078A32B /* SZTextView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SZTextView.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,7 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA12D05C289AAD960078A32B /* SZTextView.xcframework in Frameworks */,
+				FA12D062289ABF630078A32B /* SZTextView.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +221,7 @@
 		3796517418F2F1350022151B = {
 			isa = PBXGroup;
 			children = (
+				FA12D060289ABEA20078A32B /* SZTextView.xcframework */,
 				3796518218F2F1350022151B /* PAYFormBuilder */,
 				C3F48DFF1D102B6000A8CE5E /* Frameworks */,
 				3796519618F2F1350022151B /* PAYFormBuilderTests */,
@@ -461,7 +462,6 @@
 		C3F48DFF1D102B6000A8CE5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA12D05B289AAD960078A32B /* SZTextView.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";

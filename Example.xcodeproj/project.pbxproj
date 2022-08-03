@@ -106,7 +106,6 @@
 		C3D8D8221D10365000F2D073 /* PAYFormBuilder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PAYFormBuilder.xcodeproj; sourceTree = "<group>"; };
 		C3E0019A1AE4FB44009A5286 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C3F48E071D10327600A8CE5E /* KIF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KIF.framework; path = Frameworks/KIF.framework; sourceTree = "<group>"; };
-		C3F48E081D10327600A8CE5E /* SZTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SZTextView.framework; path = Frameworks/SZTextView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +182,6 @@
 			children = (
 				C3D8D8221D10365000F2D073 /* PAYFormBuilder.xcodeproj */,
 				C3F48E071D10327600A8CE5E /* KIF.framework */,
-				C3F48E081D10327600A8CE5E /* SZTextView.framework */,
 				C3E0019A1AE4FB44009A5286 /* XCTest.framework */,
 				3796520B18F426A00022151B /* Foundation.framework */,
 				3796520D18F426A00022151B /* CoreGraphics.framework */,
