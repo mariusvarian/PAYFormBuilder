@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -96,7 +96,7 @@
 		C3F48DFB1D100CE300A8CE5E /* PAYDefaultTableTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = C395035F1AD7B6BD0067CF7C /* PAYDefaultTableTheme.m */; };
 		C3F48DFC1D100CE300A8CE5E /* PAYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C39503651AD7B6BD0067CF7C /* PAYStyle.m */; };
 		C3F48DFD1D100CE300A8CE5E /* PAYValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3709CE611920DFAB0077BAFF /* PAYValidation.m */; };
-		C3F48E011D102B6D00A8CE5E /* SZTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F48E001D102B6000A8CE5E /* SZTextView.framework */; };
+		FA12D05C289AAD960078A32B /* SZTextView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA12D05B289AAD960078A32B /* SZTextView.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,7 +203,7 @@
 		C39503641AD7B6BD0067CF7C /* PAYStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYStyle.h; sourceTree = "<group>"; };
 		C39503651AD7B6BD0067CF7C /* PAYStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAYStyle.m; sourceTree = "<group>"; };
 		C39503661AD7B6BD0067CF7C /* PAYTableTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYTableTheme.h; sourceTree = "<group>"; };
-		C3F48E001D102B6000A8CE5E /* SZTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SZTextView.framework; sourceTree = "<group>"; };
+		FA12D05B289AAD960078A32B /* SZTextView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SZTextView.xcframework; path = ../../../iOS/Carthage/Build/SZTextView.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,7 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3F48E011D102B6D00A8CE5E /* SZTextView.framework in Frameworks */,
+				FA12D05C289AAD960078A32B /* SZTextView.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +461,7 @@
 		C3F48DFF1D102B6000A8CE5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C3F48E001D102B6000A8CE5E /* SZTextView.framework */,
+				FA12D05B289AAD960078A32B /* SZTextView.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -768,7 +768,11 @@
 				INFOPLIST_FILE = "PAYFormBuilder Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.paij.PAYFormBuilder-Framework";
 				PRODUCT_NAME = PAYFormBuilder;
@@ -802,7 +806,11 @@
 				INFOPLIST_FILE = "PAYFormBuilder Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.paij.PAYFormBuilder-Framework";
 				PRODUCT_NAME = PAYFormBuilder;
