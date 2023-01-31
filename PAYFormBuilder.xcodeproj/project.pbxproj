@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94E4FA9A297E8C2B00C5E93C /* SZTextView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4FA99297E8C2B00C5E93C /* SZTextView.xcframework */; };
+		94E4FA9B297E8C2B00C5E93C /* SZTextView.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4FA99297E8C2B00C5E93C /* SZTextView.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C33C977D1D0EFF9E00CCFFE8 /* PAYFormBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 37906D3018F431D200FC3CC8 /* PAYFormBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C33C977E1D0EFFB400CCFFE8 /* PAYNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A73CF319743D2700381DC9 /* PAYNotifications.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C33C977F1D0EFFC500CCFFE8 /* PAYFormCellBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C32293CB1ADECB08007E8252 /* PAYFormCellBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,8 +98,21 @@
 		C3F48DFB1D100CE300A8CE5E /* PAYDefaultTableTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = C395035F1AD7B6BD0067CF7C /* PAYDefaultTableTheme.m */; };
 		C3F48DFC1D100CE300A8CE5E /* PAYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C39503651AD7B6BD0067CF7C /* PAYStyle.m */; };
 		C3F48DFD1D100CE300A8CE5E /* PAYValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3709CE611920DFAB0077BAFF /* PAYValidation.m */; };
-		FA12D062289ABF630078A32B /* SZTextView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA12D060289ABEA20078A32B /* SZTextView.xcframework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94E4FA9C297E8C2B00C5E93C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94E4FA9B297E8C2B00C5E93C /* SZTextView.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3709CE601920DFAB0077BAFF /* PAYValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYValidation.h; sourceTree = "<group>"; };
@@ -186,6 +201,8 @@
 		37AF34B318F8560300848D49 /* PAYFormSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAYFormSwitch.m; sourceTree = "<group>"; };
 		37E4CE321A093B8000F342A8 /* PAYFormRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYFormRow.h; sourceTree = "<group>"; };
 		37E4CE331A093B8000F342A8 /* PAYValidatableFormCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYValidatableFormCell.h; sourceTree = "<group>"; };
+		94E4FA89297DB18400C5E93C /* SZTextView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SZTextView.xcframework; path = ../../../iOS/Carthage/Build/SZTextView.xcframework; sourceTree = "<group>"; };
+		94E4FA99297E8C2B00C5E93C /* SZTextView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SZTextView.xcframework; path = Carthage/Build/SZTextView.xcframework; sourceTree = SOURCE_ROOT; };
 		C31424BC1ACD7BFC00B7005D /* PAYSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYSwitch.h; sourceTree = "<group>"; };
 		C31424BD1ACD7BFC00B7005D /* PAYSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAYSwitch.m; sourceTree = "<group>"; };
 		C32293CB1ADECB08007E8252 /* PAYFormCellBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYFormCellBuilder.h; sourceTree = "<group>"; };
@@ -211,7 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA12D062289ABF630078A32B /* SZTextView.xcframework in Frameworks */,
+				94E4FA9A297E8C2B00C5E93C /* SZTextView.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +479,8 @@
 		C3F48DFF1D102B6000A8CE5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94E4FA99297E8C2B00C5E93C /* SZTextView.xcframework */,
+				94E4FA89297DB18400C5E93C /* SZTextView.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -541,6 +560,7 @@
 				C33C97711D0EFD6000CCFFE8 /* Frameworks */,
 				C33C97721D0EFD6000CCFFE8 /* Headers */,
 				C33C97731D0EFD6000CCFFE8 /* Resources */,
+				94E4FA9C297E8C2B00C5E93C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -679,7 +699,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				EXCLUDED_ARCHS = x86_64;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -696,9 +716,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = "arm64 x86_64";
 			};
 			name = Debug;
 		};
@@ -731,7 +751,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXCLUDED_ARCHS = x86_64;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -743,7 +763,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = "arm64 x86_64";
 			};
 			name = Release;
 		};
