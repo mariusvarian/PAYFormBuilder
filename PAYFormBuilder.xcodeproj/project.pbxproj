@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		94E4FA9A297E8C2B00C5E93C /* SZTextView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4FA99297E8C2B00C5E93C /* SZTextView.xcframework */; };
-		94E4FA9B297E8C2B00C5E93C /* SZTextView.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94E4FA99297E8C2B00C5E93C /* SZTextView.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C33C977D1D0EFF9E00CCFFE8 /* PAYFormBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 37906D3018F431D200FC3CC8 /* PAYFormBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C33C977E1D0EFFB400CCFFE8 /* PAYNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A73CF319743D2700381DC9 /* PAYNotifications.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C33C977F1D0EFFC500CCFFE8 /* PAYFormCellBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C32293CB1ADECB08007E8252 /* PAYFormCellBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -99,20 +98,6 @@
 		C3F48DFC1D100CE300A8CE5E /* PAYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C39503651AD7B6BD0067CF7C /* PAYStyle.m */; };
 		C3F48DFD1D100CE300A8CE5E /* PAYValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3709CE611920DFAB0077BAFF /* PAYValidation.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		94E4FA9C297E8C2B00C5E93C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				94E4FA9B297E8C2B00C5E93C /* SZTextView.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3709CE601920DFAB0077BAFF /* PAYValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAYValidation.h; sourceTree = "<group>"; };
@@ -560,7 +545,6 @@
 				C33C97711D0EFD6000CCFFE8 /* Frameworks */,
 				C33C97721D0EFD6000CCFFE8 /* Headers */,
 				C33C97731D0EFD6000CCFFE8 /* Resources */,
-				94E4FA9C297E8C2B00C5E93C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
